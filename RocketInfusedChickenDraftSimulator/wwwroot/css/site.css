@@ -121,6 +121,7 @@ body {
     background-color: #666;
     border-bottom: solid 5px #333;
     height: 60%;
+    overflow: hidden;
 }
 #summary-info {
     background-color: #666;
@@ -136,4 +137,17 @@ body {
     background-color: #666;
     border-left: solid 5px #333;
     height: 70%;
+}
+
+.mtg-card {
+    width: 14%;
+    max-width: 145px;
+    /*height: 30%;
+    max-height: 250px;*/
+    margin: 0.5%;
+}
+
+.card-list {
+    height: 100%;
+    
 }
