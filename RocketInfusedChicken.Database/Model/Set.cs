@@ -18,8 +18,11 @@ namespace RocketInfusedChicken.Database.Model
         [MaxLength(5)]
         public string Code { get; set; }
 
+        [MaxLength(15)]
+        public string SetType { get; set; }
+
         public DateTime ReleaseDate { get; set; }
 
-        public virtual ICollection<Printing> Printings { get; set; }
+        public List<Printing> Printings { get; set; }
     }
 }
